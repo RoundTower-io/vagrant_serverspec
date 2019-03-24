@@ -2,7 +2,7 @@
 A simple vagrant configuration demonstrating the use of ServerSpec
 
 # Overview
-This demonstrates the concept of Test-Driven Infrastructure.
+This demonstrates the concept of Test-Driven Infrastructure. It does this by bringing up a vagrant box that has the ServerSpect test harness as part of the startup process.
 
 The Vagrantfile contains a call to the serverspec plugin. To quote the documentation, ServerSpec:
 ```
